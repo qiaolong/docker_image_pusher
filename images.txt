@@ -3,5 +3,13 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 mongo:latest
+docker.io/mongo:4.4.25
+docker.io/mysql:8.1.0
+docker.io/overhangio/openedx-permissions:17.0.6
+docker.io/elasticsearch:7.17.13
+docker.io/redis:7.2.4
+docker.io/devture/exim-relay:4.96-r1-0
+docker.io/overhangio/openedx:17.0.6-indigo
+docker.io/overhangio/openedx:17.0.1-indigo
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
